@@ -15,7 +15,7 @@ function showMessage(value) {
 }
 
 try {
-  showMessage('山田', '鈴木');
+  showMessage('山田');
 } catch(e) {
   window.alert(e.message);
 }
