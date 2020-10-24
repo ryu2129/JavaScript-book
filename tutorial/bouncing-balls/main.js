@@ -88,7 +88,6 @@ function loop() {
     balls[i].update();
     balls[i].collisionDetect();
   }
-
   requestAnimationFrame(loop);
 }
 loop();
